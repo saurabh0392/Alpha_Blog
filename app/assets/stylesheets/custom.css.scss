@@ -1,2 +1,68 @@
+$navbar-default-bg: #00ccff;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo
+{
+    color: #000000;
+    text-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+    letter-spacing: -1px;
+}
+
+#logo.hover
+{
+    color: #000000;
+    text-decoration: none;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.jumbotron
+{
+    background-image: asset-url('Jellyfish.jpg');
+    background-size: cover;
+    height: 800px;
+}
+
+.jumbotron h1
+{
+    color: #fff;
+    letter-spacing: -1px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+footer
+{
+    margin-top: 10px;
+    border-top: 1px dotted #000 ;
+}
+
+footer a.hover
+{
+    color: red;
+}
+
+footer small
+{
+    float: left;
+}
+
+footer ul
+{
+    float: right;
+    list-style: none;
+}
+
+footer ul li
+{
+    float: left;
+    margin-left: 15px;
+}
